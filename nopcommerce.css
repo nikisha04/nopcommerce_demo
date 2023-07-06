@@ -160,7 +160,7 @@ padding: 20px;
 .home-banner-btns{
     margin: 50px 0px 0px 31px;
 }
-.home-banner-btn, .home-banner-btn2, .btn-features {
+.home-banner-btn, .home-banner-btn2, .btn-features, .more-client-button {
     padding: 15px 39px 15px 39px;
     border: none;
     border-radius: 25px;
@@ -423,5 +423,69 @@ padding: 20px;
     line-height: 22px;
 }
 
+/* || OUR CLIENTS */
 
- 
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    margin: 150px 0px 100px 0px;
+}
+ .owl-dot{
+    font-size: 36px;
+    font-weight: 700;
+    border: none;
+    border-radius: 50%;
+    background-color:#d8d8d8;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+ }
+ .owl-dot:hover{
+    background-color: black;
+ }
+ .client-title{
+    font-size: 35px;
+    text-align: center;
+ }
+ .our-clients{
+    padding: 100px;
+    background-color: #f3f3f3;
+ }
+ .plus-img, .plus-img-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+ }
+ .plus-img-2{
+    margin-top: 0px;
+ }
+ .plus-img1,.plus-img2{
+    background-image: url('nopcommerce_files/plus.png');
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 61px;
+ }
+ .plus-img2{
+    margin-top: 0px;
+ }
+.client-logo{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+.client-logo li{
+   width: 270px;
+   height: 160px;
+ }
+ .client-btn{
+    text-align: center;
+    margin-top: 18px;
+
+ }
+ .more-client-button{
+    border:2px solid var(--FCOLOR);
+    background-color: #f0f0f0;
+    color: var(--FCOLOR);
+ }
